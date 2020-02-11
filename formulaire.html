@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>formulaire d'intégration</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="page.css">
+		<link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="tete">
+			<img src="assets/img/meteologo.png">
+			<h4>Créez votre profil Meteojob</h4>
+		</div>
+		<form method="">
+			<div class="bar1">
+				<div >
+					<label for="prenom">Prénom</label><br>
+					<input type="text" name="prenom" id="prenom" placeholder="Votre prénom" autofocus="autofocus" required="required">
+				</div>
+				<div>
+					<labe for="name">nom</label><br>
+					<input type="text" name="nom" id="name" placeholder="Votre nom">
+				</div>
+			</div>
+		    <div class="bar2">
+		    	<div>
+		    		<label for="e-mail">Adresse e-mail</label><br>
+				    <input type="e-mail" name="e-mail" id="e-mail" placeholder="Votre adresse e-mail" >
+		    	</div><br>
+
+		    	<label for="mdpass">Mot de passe</label>
+		    	<div class="passe">
+				    <input type="passe" name="motdepasse" id="mdpass" placeholder="Choisissez votre mot de passe">
+				    <img src="assets/img/oeil.png">
+		    	</div>
+				
+		    	<div>
+		    		<label for="poste">Postes recherchés</label><br>
+				    <input type="text" name="poste" id="poste" placeholder="Ex: Chef de projet, cuisinier..."><br>
+		    	</div>
+				
+		    	<div>
+		    		<label for="ville">Ou souhaitez-vous travailler?</label><br>
+				    <input type="text" name="ville" id="ville" placeholder="Ex: Essone, Nantes, Bretagnes...">
+		    	</div>
+		    </div>
+		    <div class="bar3">
+			    <p>Types de contrats recherchés</p>
+				<div>
+					<input type="checkbox" name="liste" id="cdi"></input>
+					<label for="cdi">CDI</label>
+
+					<input type="checkbox" name="liste" id="cdd"></input>
+					<label for="cdd">CDD</label>
+
+					<input type="checkbox" name="liste" id="ind"></input>
+					<label for="ind">Indépendant/ Franchisé</label>
+
+					<input type="checkbox" name="liste" id="int"></input>
+					<label for="int">Intérim</label>
+
+					<input type="checkbox" name="liste" id="stage"></input>
+					<label for="stage">Stage</label>
+
+					<input type="checkbox" name="liste" id="alt"></input>
+					<label for="alt">Alternance/ Apprentissage</label>
+
+					<input type="checkbox" name="liste" id="contrat"></input>
+					<label for="contrat">+de types de contrat</label>
+				</div>
+		    </div>
+		    <div class="button">
+					<p>J'accepte les <a href="#">conditions générales</a> pour créer mon compte,<br>
+				    bénéficier des services de matching et postuler aux offres: 
+				    </p>
+				    <div class="radio">
+				    	<input type="radio" name="accept" id="oui"><label for="oui">OUI</label>
+				    	<input type="radio" name="accept" id="non"><label for="non">NON</label>
+				    </div>
+				</div>
+				
+		    <div class="valide">
+		    	<input type="checkbox" name="liste" id="cntinu"></input>
+		        <label for="cntinu">Continuer</label>
+		    </div>
+			    
+		</form>
+
+	</body>
+</html>

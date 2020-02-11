@@ -1,0 +1,144 @@
+body{
+	background-image: url("assets/img/bg-clouds.png");
+	background-color:rgb(48,136,188);
+	margin: 0;
+	padding: 0;
+}
+
+input[type="checkbox"]{
+	display: none;
+}
+
+input[type="radio"]{
+	display: none;
+}
+
+input:focus{
+	outline:1px solid red;
+}
+
+.bar3>div label{
+	display: inline-block;
+	width: 81px;
+	height: 30px;
+	overflow-wrap: break-word;
+	background-color: lightgray;
+	text-align: center;
+	font-size: 14px;
+	padding:15px 10px 0;
+}
+
+.bar3>div label:nth-of-type(3),.bar3>div label:nth-of-type(6),
+.bar3>div label:nth-of-type(7){
+	padding-bottom: 8px;
+	padding-top: 8px;
+}
+
+input:checked+label{
+	background-color: rgb(48,136,188);
+	color: white;
+}
+
+form{
+	background-color: white;
+	height: 100%;
+	width: 40%;
+	margin: 20px auto 10px;
+	padding: 40px 40px
+}
+
+.bar1{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.bar1 div input{
+	padding:5px 70px 5px 5px;
+	margin-top: 7px;
+	
+}
+
+.bar2 div input[type="text"],input[type="e-mail"]{
+	width: 100%;
+	padding:5px 0 5px 8px;
+	margin-top: 7px;
+}
+
+.bar2 div{
+	margin-top: 20px;
+}
+
+.tete{
+	width: 20%;
+	margin:0 auto;
+	padding-top: 20px;
+}
+
+.bar3 div{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-column-gap: 20px;
+	grid-row-gap:10px;
+} 
+
+input[type="passe"]{
+	border: none;
+	width: 80%;
+}
+
+.passe{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	border: 1px solid rgb(183,183,183);
+	padding:5px 3px 5px 8px;	
+}
+
+.radio{
+	background-color: lightgray;
+	margin-right: 50px;
+	border-radius: 3px;
+}
+
+.button{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.radio label{
+padding: 0 5px;
+}
+
+.radio input:checked+label{
+	background-color: rgb(134,134,134);
+	color: white;
+	border-radius: 3px;
+	display: inline-block;
+	padding: 5px 5px;
+}
+
+h4{
+	color: rgba(253,253,253,0.8);
+    font-family: 'Poiret One', cursive;
+}
+
+a{
+	color: #000;
+}
+
+.valide label{
+	display: inline-block;
+	width: 81px;
+	height: 40px;
+	overflow-wrap: break-word;
+	background-color: lightgray;
+	text-align: center;
+	font-size: 20px;
+	padding:15px 10px 0;
+	margin: 1px 40%;
+}
+
+
+
