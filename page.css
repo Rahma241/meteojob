@@ -73,8 +73,11 @@ form{
 }
 
 .bar2 div{
-	/*margin-top: 20px;*/
 	margin-bottom: 20px;
+}
+
+.bar2,.bar1, div label{
+	font-weight: bold;
 }
 
 .tete{
@@ -125,8 +128,6 @@ input[type="passe"]{
 .radio{
 	
 	margin-right: 40px;
-	/*border-radius: 3px;
-	/*padding: 3px 3px;*/
 }
 
 .radio .oui{
@@ -195,6 +196,10 @@ a{
 	padding:10px 32px;
 	color: #fff;
 	border:none;
+}
+
+.button p{
+	font-weight: bold;
 }
 
 .valide{
